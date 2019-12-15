@@ -1,0 +1,15 @@
+
+
+class Main
+{
+	int foo(int a)
+	{
+		return a;
+	}
+	static void main()
+	{
+		var a = new Main();
+		var b = a.foo;
+		var c = b(3);
+	}
+}
